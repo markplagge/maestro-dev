@@ -176,7 +176,7 @@ namespace maestro {
       std::unique_ptr<std::map<LayerType, int>> tensor_info_mapping_table_;
       long num_macs_;
 
-    private:
+
 
       void ParseDFSL()
       {

@@ -101,6 +101,8 @@ namespace maestro {
                                 (num_pes, simd_width, top_noc_bw, l1_sram_byte_size, l2_sram_byte_size);
       }
 
+      
+
       std::string dfsl_file_name_;
 
       std::shared_ptr<DFA::NeuralNetwork> network_;
