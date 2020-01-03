@@ -1,5 +1,8 @@
+import os
+env = Environment(ENV = {'PATH' : os.environ['PATH']}, CXX=os.environ['CXX'])
+if "boost_dir" in os.environ.keys():
+    env.Append(CPPPATH= os.environ['boost_dir'])
 
-env = Environment()
 
 includes = '''
               .

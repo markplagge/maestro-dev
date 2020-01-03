@@ -32,8 +32,8 @@ include_directories(
         )
 set(ms_srcs  ./lib/src/maestro-marvel.cpp ./lib/src/BASE_base-objects.cpp)
 message(${ms_hdrs})
-add_library(maestro STATIC ${ms_srcs} ${ms_hdrs})
-#set_target_properties(maestro PROPERTIES POSITION_INDEPENDENT_CODE ON)
+add_library(maestro SHARED ${ms_srcs} ${ms_hdrs})
+set_target_properties(maestro PROPERTIES POSITION_INDEPENDENT_CODE ON)
 set_target_properties(maestro PROPERTIES LINKER_LANGUAGE CXX)
 
 target_link_libraries(maestro Boost::program_options Boost::filesystem)
