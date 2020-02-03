@@ -150,7 +150,7 @@ namespace maestro {
 				}
 
 				void TerminateProgram() {
-					exit(-1);
+					throw 20;
 				}
 
 			protected:
