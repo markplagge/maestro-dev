@@ -44,3 +44,7 @@ maestro
 .DS_Store
 
 data/ResNeXt50_tpu\.m
+
+build/
+
+*.pyc
