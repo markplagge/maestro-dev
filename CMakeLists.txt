@@ -10,7 +10,7 @@ set(Boost_USE_STATIC_RUNTIME OFF)
 set(BoostCOMP filesystem program_options)
 
 
-FIND_PACKAGE( Boost 1.50 COMPONENTS ${BoostCOMP}
+FIND_PACKAGE( Boost 1.60 COMPONENTS ${BoostCOMP}
         REQUIRED )
 #
 include_directories(${Boost_INCLUDE_DIRS})
