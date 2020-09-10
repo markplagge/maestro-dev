@@ -45,4 +45,8 @@ maestro
 
 data/ResNeXt50_tpu\.m
 
+build/
+
+*.pyc
+
 data/pytorch_example/__pycache__/
