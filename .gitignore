@@ -44,3 +44,5 @@ maestro
 .DS_Store
 
 data/ResNeXt50_tpu\.m
+
+data/pytorch_example/__pycache__/
